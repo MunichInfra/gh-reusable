@@ -8,8 +8,9 @@ on:
         type: string
 
 jobs:
-  job-name-xyz:
+  job_name_xyz:
     runs-on: ubuntu-latest
     steps:
       - name: Echo from Reusable
+        uses: actions/labeler@v4
         run: echo "Hello Mr. {{ inputs.caller_name }}. How are you?"
