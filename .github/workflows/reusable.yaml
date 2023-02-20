@@ -8,8 +8,8 @@ on:
         type: string
 
 jobs:
-  triage:
+  job-name-xyz:
     runs-on: ubuntu-latest
     steps:
       - name: Echo from Reusable
-        run: echo "Hello Mr. {{ inputs.caller_name }}"
+        run: echo "Hello Mr. {{ inputs.caller_name }}. How are you?"
