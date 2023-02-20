@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo from Reusable
-        run: echo "Hello Mr. {{ inputs.caller-name }}. How are you?"
+        run: echo "Hello Mr. ${{ inputs.caller-name }}. How are you?"
