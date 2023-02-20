@@ -15,9 +15,9 @@ jobs:
       - name: composite-step
         with:
           caller-name: "Bond"
-        uses: "./.github/actions/reusable-composite"
+        uses: "./.github/actions/composite"
 
       - name: composite-step-2
         with:
           caller-name: "Dent"
-        uses: "./.github/actions/reusable-composite"
+        uses: "./.github/actions/composite"
