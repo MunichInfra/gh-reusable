@@ -1,0 +1,15 @@
+name: Using Composite Actions
+on: [push]
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Hey DevOps fans!"
+  reusable-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: composite-step
+        with:
+          caller-name: "Bond"
+        uses: "./.github/actions/reusable-composite/action.yaml"
