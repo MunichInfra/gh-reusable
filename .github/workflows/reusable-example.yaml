@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-        run: echo "Hey DevOps fans!"
+        run: echo "Hey DevOps fans!!"
   reusable-test:
     with:
       caller-name: "Bond"
