@@ -12,9 +12,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: LS output
-        run: "ls -alh"
-
       - name: composite-step
         with:
           caller-name: "Bond"
