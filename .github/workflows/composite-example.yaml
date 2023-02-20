@@ -14,8 +14,8 @@ jobs:
 
       - name: LS output
         run: "ls -alh"
-        
+
       - name: composite-step
         with:
           caller-name: "Bond"
-        uses: "./.github/actions/reusable-composite/action.yaml"
+        uses: "./.github/actions/reusable-composite"
