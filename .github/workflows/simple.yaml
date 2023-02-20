@@ -8,6 +8,6 @@ jobs:
         run: echo "Hey DevOps fans!"
   reusable-test:
     runs-on: ubuntu-latest
-    uses: "./.github/workflows/reusable"
+    uses: "./.github/workflows/reusable.yaml"
     with:
       caller_name: "Bond"
