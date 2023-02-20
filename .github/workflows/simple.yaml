@@ -1,4 +1,4 @@
-name: Main Workflow
+name: Using Reusable Workflows
 on: [push]
 jobs:
   run-shell-command:
