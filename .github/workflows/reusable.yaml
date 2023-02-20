@@ -8,8 +8,13 @@ on:
         type: string
 
 jobs:
-  job_name_xyz:
+  job_name_abc:
     runs-on: ubuntu-latest
     steps:
       - name: Echo from Reusable
         run: echo "Hello Mr. ${{ inputs.caller-name }}. How are you?"
+  job_name_xyz:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo from Reusable
+        run: echo "Are you really Mr. ${{ inputs.caller-name }}?"
