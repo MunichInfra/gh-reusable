@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Echo from Reusable
         uses: actions/labeler@v4
-        run: echo "Hello Mr. {{ inputs.caller_name }}. How are you?"
+        run: echo "Hello Mr. {{ inputs.caller_name }}!"
