@@ -5,14 +5,8 @@ inputs:
     required: true
     type: string
 
-
 runs:
   using: "composite"
   steps:
     - name: Echo from Composite
       run: echo "Hello Mr. ${{ inputs.caller-name }}. How are you?"
-
-jobs:
-  job_name_xyz:
-    runs-on: ubuntu-latest
-    steps:
