@@ -1,4 +1,4 @@
-name: Shell Commands
+name: Main Workflow
 on: [push]
 jobs:
   run-shell-command:
