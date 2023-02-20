@@ -7,6 +7,6 @@ jobs:
       - name: echo a string
         run: echo "Hey DevOps fans!"
   reusable-test:
-    uses: "./.github/workflows/reusable.yaml"
     with:
-      caller_name: "Bond"
+      caller-name: "Bond"
+    uses: "./.github/workflows/reusable.yaml"
