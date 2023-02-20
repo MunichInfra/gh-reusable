@@ -10,4 +10,4 @@ runs:
   steps:
     - name: Echo from Composite
       shell: bash
-      run: echo "Hello Mr. ${{ inputs.caller-name }}. How are you?"
+      run: echo "Hello Mr. ${{ inputs.caller-name }}. What's Up!"
