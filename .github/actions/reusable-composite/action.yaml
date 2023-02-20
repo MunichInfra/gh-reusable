@@ -9,4 +9,5 @@ runs:
   using: "composite"
   steps:
     - name: Echo from Composite
+      shell: bash
       run: echo "Hello Mr. ${{ inputs.caller-name }}. How are you!"
