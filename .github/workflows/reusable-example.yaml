@@ -9,8 +9,8 @@ jobs:
   reusable-test:
     with:
       caller-name: "Bond"
-    uses: "./.github/workflows/reusable.yaml"
+    uses: "./.github/workflows/abc/reusable.yaml"
   reusable-test-2:
     with:
       caller-name: "Dent"
-    uses: "./.github/workflows/reusable.yaml"
+    uses: "./.github/workflows/abc/reusable.yaml"
