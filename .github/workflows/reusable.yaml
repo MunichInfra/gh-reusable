@@ -10,6 +10,10 @@ on:
 env:
   account: "092882341390"
 
+permissions:
+  id-token: write
+
+
 jobs:
   job_name_abc:
     runs-on: ubuntu-latest
