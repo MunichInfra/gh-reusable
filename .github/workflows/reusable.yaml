@@ -10,9 +10,6 @@ on:
 env:
   account: "092882341390"
 
-permissions:
-  id-token: read
-
 
 jobs:
   job_name_abc:
