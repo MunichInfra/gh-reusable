@@ -11,7 +11,7 @@ env:
   account: "092882341390"
 
 permissions:
-  id-token: write
+  id-token: read
 
 
 jobs:
