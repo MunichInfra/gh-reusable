@@ -7,6 +7,19 @@ on:
         required: true
         type: string
 
+concurrency:
+  group: dev-deployment
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+  pull-requests: write
+  deployments: write
+
+env:
+  account: "092882341390"
+
 jobs:
   job_name_abc:
     runs-on: ubuntu-latest
